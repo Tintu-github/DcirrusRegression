@@ -1,0 +1,1078 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "A Feature for testing The permissions of folders for Admin users",
+    "line": 1,
+    "id": "a-feature-for-testing-the-permissions-of-folders-for-admin-users",
+    "tags": [],
+    "uri": "e2e\\features\\Demo.feature",
+    "elements": [
+      {
+        "id": "a-feature-for-testing-the-permissions-of-folders-for-admin-users;testing-the-new-create-folder-functionality",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Testing the new create folder functionality",
+        "tags": [
+          {
+            "name": "@desktop",
+            "line": 20
+          },
+          {
+            "name": "@smoke",
+            "line": 21
+          },
+          {
+            "name": "@NewTestFolderCreation",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\background.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\hotkeys.ts:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\misc.ts:12"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the URL \"home page\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I wait \"DCirrus Login\" title loaded",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click the \"Dcirrus UserType\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I fill in the \"Dcirrus loginid\" input with \"rama.aws2016@gmail.com\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I fill in the \"Dcirrus password\" input with \"Test@123\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I fill in the \"Dcirrus corporateid\" input with \"0020382\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I fill in the \"Dcirrus captcha\" input with \"captcha\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I wait \"10\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click the \"Dcirrus submit\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I set \"Failure\" state of Execution",
+            "match": {
+              "location": "e2e\\stepdefinitions\\background.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I navigate to the URL \"home page\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I navigate to the \"drive folder\" page",
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click the \"pop create folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I click the \"create folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I fill in the \"folder name\" input with \"PermissionFolder\" and max limit \"1000000000\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I click the \"ADD folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I wait \"2\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I set \"Success\" state of Execution",
+            "match": {
+              "location": "e2e\\stepdefinitions\\background.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "a-feature-for-testing-the-permissions-of-folders-for-admin-users;testing-the-new-sub-create-folder-functionality",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Testing the new sub create folder functionality",
+        "tags": [
+          {
+            "name": "@desktop",
+            "line": 42
+          },
+          {
+            "name": "@smoke",
+            "line": 43
+          },
+          {
+            "name": "@NewSubTestFolderCreation",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\background.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\hotkeys.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\misc.ts:12"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the URL \"home page\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I wait \"DCirrus Login\" title loaded",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click the \"Dcirrus UserType\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I fill in the \"Dcirrus loginid\" input with \"rama.aws2016@gmail.com\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I fill in the \"Dcirrus password\" input with \"Test@123\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I fill in the \"Dcirrus corporateid\" input with \"0020382\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I fill in the \"Dcirrus captcha\" input with \"captcha\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I wait \"10\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click the \"Dcirrus submit\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I set \"Failure\" state of Execution",
+            "match": {
+              "location": "e2e\\stepdefinitions\\background.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "I navigate to the URL \"home page\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I navigate to the \"drive folder\" page",
+            "match": {
+              "location": "e2e\\stepdefinitions\\navigate.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I click the \"pop create folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I click the \"create folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I fill in the \"folder name\" input with \"PermissionFolder\" and max limit \"1000000000\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I click the \"ADD folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I click the \"PermissionFolder\" folder button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I wait \"10\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I click the \"pop create folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I click the \"create folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I fill in the \"folder name\" input with \"PermissionFolder\" and max limit \"1000000000\"",
+            "match": {
+              "location": "e2e\\stepdefinitions\\input.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I click the \"ADD folder\" button",
+            "match": {
+              "location": "e2e\\stepdefinitions\\click.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "e2e\\stepdefinitions\\wait.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "I set \"Success\" state of Execution",
+            "match": {
+              "location": "e2e\\stepdefinitions\\background.ts:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "pop create folder" : ["id", "btncreatefolderpopup"],
+  "create folder" : ["id", "btncreatefolder"],
+  "folder name" : ["id", "admfoldername"],
+  "ADD folder" : ["xpath", "//button[text()='ADD']"],
+  "Dcirrus permissions" : ["xpath", "//a[@title = 'Admin and User Permissions']"],
+  "Dcirrus permodule" : ["xpath", "//a[@id = 'permission_module']/i"],
+  "upload folder" :["id","btnuploadfolder"],
+  "upload folder frame" :["id", "uploadFolderId"]
+}
+

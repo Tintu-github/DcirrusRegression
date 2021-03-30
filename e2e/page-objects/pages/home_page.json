@@ -1,0 +1,10 @@
+{
+  "Dcirrus UserType" : ["linkText", "Business User"],
+  "Dcirrus loginid" : ["id", "loginid"],
+  "Dcirrus password" : ["id", "password"],
+  "Dcirrus corporateid" : ["id", "corporateid"],
+  "Dcirrus captcha" : ["id", "logincaptcha"],
+  "Dcirrus submit" : ["id", "btnlogin"]
+}
+
+
